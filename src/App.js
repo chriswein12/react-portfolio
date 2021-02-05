@@ -1,5 +1,4 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
@@ -13,6 +12,8 @@ function App() {
 
   return (
     <div>
+      <Header>
+      </Header>
     </div>
   );
 }
