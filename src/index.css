@@ -53,12 +53,12 @@ header nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: flex-end;
+  align-content: center;
   align-items: center;
   list-style: none;
 }
 
-header nav ul li a {
+header nav ul li span {
   margin: 10px 15px;
   font-weight: lighter;
   font-size: 30px;
@@ -66,11 +66,15 @@ header nav ul li a {
   border-bottom: 3px solid var(--light-blue);
 }
 
-header nav ul li a:hover {
+header nav ul li span:hover {
   color: #ffffff;
   border-bottom: 3px solid #ffffff;
 }
 
+.navActive {
+  color: white;
+  border-bottom: 3px solid #ffffff;
+}
 
 footer {
   position: fixed;

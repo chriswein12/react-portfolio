@@ -5,17 +5,28 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
-import Navigation from "./components/Navigation";
+
 
 
 
 function App() {
 
+  const [sections] = useState([
+    { name: "About Me" },
+    { name: "Portfolio" },
+    { name: "Contact" },
+    { name: "Resume" }
+  ]);
+
+  const [currentSection, setCurrentSection] = useState(sections[0]);
+
   return (
     <div>
-      <Header>
-      <Navigation></Navigation>
-      </Header>
+      <Header
+        sections={sections}
+        setCurrentSection={setCurrentSection}
+        currentSection={currentSection}
+      ></Header>
       <main>
 
       </main>
