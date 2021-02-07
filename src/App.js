@@ -28,7 +28,8 @@ function App() {
         currentSection={currentSection}
       ></Header>
       <main>
-
+        <About></About>
+        <Contact></Contact>
       </main>
       <Footer></Footer>
     </div>
