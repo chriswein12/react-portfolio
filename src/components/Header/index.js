@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from "../Navigation";
+
 
 function Header() {
 
@@ -8,7 +8,6 @@ function Header() {
             <h1>
                 <a href="index.html">Chris Wein</a>
             </h1>
-            {/* <Navigation></Navigation> */}
         </header>
 
     )
