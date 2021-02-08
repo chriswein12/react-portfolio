@@ -29,6 +29,7 @@ function App() {
       ></Header>
       <main>
         <About></About>
+        <Portfolio></Portfolio>
         <Contact></Contact>
       </main>
       <Footer></Footer>
