@@ -6,9 +6,8 @@ function Navigation({ sections, currentSection, setCurrentSection }) {
         <nav>
             <ul>
                 {sections.map((section) => (
-                    <li>
+                    <li key={section.name}>
                         <span className={`${currentSection.name === section.name && 'navActive'}`}
-                            key={section.name}
                             onClick={() => { setCurrentSection(section) }}>{section.name}
                         </span>
                     </li>
