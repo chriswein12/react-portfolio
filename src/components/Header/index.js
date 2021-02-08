@@ -6,7 +6,7 @@ function Header(props) {
     return (
         <header>
             <h1>
-                <a href="index.html">Chris Wein</a>
+                <a href="index.html">Christopher Wein</a>
             </h1>
             <Navigation
                 sections={props.sections}
