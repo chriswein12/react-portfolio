@@ -57,8 +57,12 @@ function Project() {
                 {groupProjects.map((project) => (
                     <div key={(project.title).split(" ").join("-").toLowerCase()}>
                         <div className="image-container">
-                            <a href={project.projectLink} rel="noreferrer">
-                                <h4 className="project-name">{project.title}<span className="align-right"><a className="github-link" href={project.githubLink}><i className="fab fa-github"></i> View Repo</a></span></h4>
+                            <a href={project.projectLink} target="_blank" rel="noreferrer">
+                                <h4 className="project-name">{project.title}
+                                    <span className="align-right">
+                                        <a className="github-link" href={project.githubLink} target="_blank" rel="noreferrer"><i className="fab fa-github"></i> View Repo</a>
+                                    </span>
+                                </h4>
                                 <img
                                     src={require(`../../assets/projects/${project.imageFile}`).default}
                                     alt={project.title}
@@ -68,7 +72,7 @@ function Project() {
                         </div>
                         <div className="hidden">
                             <h5>
-                                <a className="github" href={project.githubLink}><i className="fab fa-github"></i> View Github Repo</a>
+                                <a className="github" href={project.githubLink} target="_blank" rel="noreferrer"><i className="fab fa-github"></i> View Github Repo</a>
                             </h5>
                         </div>
                     </div>
@@ -80,8 +84,12 @@ function Project() {
                 {individualProjects.map((project) => (
                     <div key={(project.title).split(" ").join("-").toLowerCase()}>
                         <div className="image-container">
-                            <a href={project.projectLink} rel="noreferrer">
-                                <h4 className="project-name">{project.title}<span className="align-right"><a className="github-link" href={project.githubLink}><i className="fab fa-github"></i> View Repo</a></span></h4>
+                            <a href={project.projectLink} target="_blank" rel="noreferrer">
+                                <h4 className="project-name">{project.title}
+                                    <span className="align-right">
+                                        <a className="github-link" href={project.githubLink} target="_blank" rel="noreferrer"><i className="fab fa-github"></i> View Repo</a>
+                                    </span>
+                                </h4>
                                 <img
                                     src={require(`../../assets/projects/${project.imageFile}`).default}
                                     alt={project.title}
@@ -91,7 +99,7 @@ function Project() {
                         </div>
                         <div className="hidden">
                             <h5>
-                                <a className="github" href={project.githubLink}><i className="fab fa-github"></i> View Github Repo</a>
+                                <a className="github" href={project.githubLink} target="_blank" rel="noreferrer"><i className="fab fa-github"></i> View Github Repo</a>
                             </h5>
                         </div>
                     </div>
