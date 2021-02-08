@@ -20,6 +20,21 @@ function App() {
 
   const [currentSection, setCurrentSection] = useState(sections[0]);
 
+  function displayPage() {
+    switch (currentSection.name) {
+      case 'About Me':
+        return <About />;
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Contact':
+        return <Contact />;
+      case 'Resume':
+        return <Resume />;
+      default:
+        return <About />;
+    }
+  };
+
   return (
     <div>
       <Header
@@ -28,9 +43,7 @@ function App() {
         currentSection={currentSection}
       ></Header>
       <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Contact></Contact>
+        {displayPage()}
       </main>
       <Footer></Footer>
     </div>

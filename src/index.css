@@ -30,6 +30,7 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: var(--dark-blue);
+  box-shadow: 0 8px 16px 0 rgba(35,35,35,.16);
 }
 
 header h1 {
@@ -80,8 +81,67 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
-  background-color: var(--primary);
+  background-color: var(--dark-blue);
   box-shadow: 0 8px 16px 0 rgba(35, 35, 35, 0.315);
   padding: 0;
   margin: 0;
+  text-align: center;
+}
+
+footer a i {
+  color: #ffffff;
+  padding: 10px;
+  margin: 0 20px;
+  font-size: 40px;
+}
+
+.title-styling {
+  color: var(--dark-blue);
+  font-size: 3vw;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.about-me {
+  display: flex;
+  margin: 0 40px;
+  max-width: 1300px;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(35,35,35,.16);
+}
+
+.about-container, .contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-text {
+  flex: 3;
+  font-size: 18px;
+  padding: 15px 30px;
+}
+
+.profile-pic {
+width: 300px;
+border-radius: 15px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 40px;
+  max-width: 1300px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(35,35,35,.16);
+}
+
+input, label {
+  display:block;
 }

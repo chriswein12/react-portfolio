@@ -55,7 +55,7 @@ function Project() {
             <h3>Group Projects</h3>
             {groupProjects.map((project) => (
                 <div key={(project.title).split(" ").join("-").toLowerCase()}>
-                    <a href={project.projectLink}>
+                    <a href={project.projectLink} rel="noreferrer">
                         <h4>{project.title}</h4>
                         <img
                             src={require(`../../assets/projects/${project.imageFile}`).default}
@@ -71,7 +71,7 @@ function Project() {
             <h3>Individual Projects</h3>
             {individualProjects.map((project) => (
                 <div key={(project.title).split(" ").join("-").toLowerCase()}>
-                    <a href={project.projectLink}>
+                    <a href={project.projectLink} rel="noreferrer">
                         <h4>{project.title}</h4>
                         <img
                             src={require(`../../assets/projects/${project.imageFile}`).default}
