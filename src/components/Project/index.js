@@ -52,37 +52,51 @@ function Project() {
 
     return (
         <div>
-            <h3>Group Projects</h3>
-            {groupProjects.map((project) => (
-                <div key={(project.title).split(" ").join("-").toLowerCase()}>
-                    <a href={project.projectLink} rel="noreferrer">
-                        <h4>{project.title}</h4>
-                        <img
-                            src={require(`../../assets/projects/${project.imageFile}`).default}
-                            alt={project.title}
-                        />
-                    </a>
-                    <h5>
-                        <a href={project.githubLink}><i className="fab fa-github"></i> View Github Repo</a>
-                    </h5>
-                </div>
-            ))}
+            <h3 className="projects-title center">Group Projects</h3>
+            <div className="projects-container">
+                {groupProjects.map((project) => (
+                    <div key={(project.title).split(" ").join("-").toLowerCase()}>
+                        <div className="image-container">
+                            <a href={project.projectLink} rel="noreferrer">
+                                <h4 className="project-name">{project.title}<span className="align-right"><a className="github-link" href={project.githubLink}><i className="fab fa-github"></i> View Repo</a></span></h4>
+                                <img
+                                    src={require(`../../assets/projects/${project.imageFile}`).default}
+                                    alt={project.title}
+                                    className="image-size"
+                                />
+                            </a>
+                        </div>
+                        <div className="hidden">
+                            <h5>
+                                <a className="github" href={project.githubLink}><i className="fab fa-github"></i> View Github Repo</a>
+                            </h5>
+                        </div>
+                    </div>
+                ))}
+            </div>
 
-            <h3>Individual Projects</h3>
-            {individualProjects.map((project) => (
-                <div key={(project.title).split(" ").join("-").toLowerCase()}>
-                    <a href={project.projectLink} rel="noreferrer">
-                        <h4>{project.title}</h4>
-                        <img
-                            src={require(`../../assets/projects/${project.imageFile}`).default}
-                            alt={project.title}
-                        />
-                    </a>
-                    <h5>
-                        <a href={project.githubLink}><i className="fab fa-github"></i> View Github Repo</a>
-                    </h5>
-                </div>
-            ))}
+            <h3 className="projects-title center">Individual Projects</h3>
+            <div className="projects-container">
+                {individualProjects.map((project) => (
+                    <div key={(project.title).split(" ").join("-").toLowerCase()}>
+                        <div className="image-container">
+                            <a href={project.projectLink} rel="noreferrer">
+                                <h4 className="project-name">{project.title}<span className="align-right"><a className="github-link" href={project.githubLink}><i className="fab fa-github"></i> View Repo</a></span></h4>
+                                <img
+                                    src={require(`../../assets/projects/${project.imageFile}`).default}
+                                    alt={project.title}
+                                    className="image-size"
+                                />
+                            </a>
+                        </div>
+                        <div className="hidden">
+                            <h5>
+                                <a className="github" href={project.githubLink}><i className="fab fa-github"></i> View Github Repo</a>
+                            </h5>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }

@@ -3,8 +3,9 @@ import Project from '../Project';
 
 function Portfolio() {
 
-    return(
+    return (
         <div>
+            <h2 className="title-styling">Portfolio</h2>
             <Project></Project>
         </div>
     )

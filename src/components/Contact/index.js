@@ -38,18 +38,18 @@ function ContactForm() {
 
     return (
         <section>
-            <h2 className="title-styling">Contact me</h2>
+            <h2 className="title-styling">Contact Me</h2>
             <div className="contact-container">
             <form className="contact-form" onSubmit={handleSubmit}>
-                <div>
+                <div className="input-container">
                     <label htmlFor="name">Name:</label>
                     <input type="text" onBlur={handleChange} defaultValue={name} name="name" />
                 </div>
-                <div>
+                <div className="input-container">
                     <label htmlFor="email">Email address:</label>
                     <input type="email" onBlur={handleChange} defaultValue={email} name="email" />
                 </div>
-                <div>
+                <div className="input-container">
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" onBlur={handleChange} defaultValue={message} rows="5" />
                     {errorMessage && (
