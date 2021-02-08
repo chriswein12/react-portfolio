@@ -61,7 +61,7 @@ function Project() {
                                 <img
                                     src={require(`../../assets/projects/${project.imageFile}`).default}
                                     alt={project.title}
-                                    className="image-size"
+                                    className="image"
                                 />
                             </a>
                             <h4 className="project-bar"><a href={project.projectLink} target="_blank" rel="noreferrer" className="project-name">{project.title}</a>
@@ -88,7 +88,7 @@ function Project() {
                                 <img
                                     src={require(`../../assets/projects/${project.imageFile}`).default}
                                     alt={project.title}
-                                    className="image-size"
+                                    className="image"
                                 />
                             </a>
                         <h4 className="project-bar"><a href={project.projectLink} target="_blank" rel="noreferrer" className="project-name">{project.title}</a>
