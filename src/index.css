@@ -225,10 +225,6 @@ button:hover {
   
 }
 
-.image-container:hover {
-  opacity: 75%;
-}
-
 .image-size {
   width: 100%;
   height: 100%;
@@ -237,7 +233,7 @@ button:hover {
   border-radius: 14px;
 }
 
-.project-name {
+.project-bar {
   background-color :var(--dark-blue);
   color: white;   
   padding: 15px;
@@ -249,8 +245,17 @@ button:hover {
   opacity: 80%;
 }
 
-.project-name:hover {
+.project-bar:hover {
 opacity: 100%;
+}
+
+.project-name {
+  color: white;
+  text-decoration: none;
+}
+
+.project-name:hover { 
+  text-decoration: underline;
 }
 
 .github-link {
