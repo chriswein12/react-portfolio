@@ -4,6 +4,13 @@ function Project() {
 
     const projects = [
         {
+            title: "House-It",
+            projectLink: "https://house-it.herokuapp.com/",
+            githubLink: "https://github.com/chriswein12/house-it",
+            imageFile: "house-it.gif",
+            group: true
+        },
+        {
             title: "12Wishes",
             projectLink: "https://twelve-wishes.herokuapp.com/",
             githubLink: "https://github.com/chriswein12/wish-list",
