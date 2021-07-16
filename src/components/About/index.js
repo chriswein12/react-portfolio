@@ -15,22 +15,27 @@ function About() {
                     </div>
 
                     <div className="about-me-text">
-                        <p>Hello! My name is Chris, or as some of my friends like to refer to me, "Topher." </p>
+                        <h3>Hello! My name is Chris! </h3>
                         <br />
-                        <p>I graduated from the University of Wisconsin - Madison in 2012, and shortly after got a job in
-                        finance. While I've gotten pretty good at my job, it feels like there's something lacking. After
-                        days, weeks, and months of self-reflection, I realized that Web Development/Software Engineering was
-                    my new calling.</p>
+                        <p>As recent graduate of the University of Wisconsin Coding Bootcamp, I am excited to start my journey as a Full-Stack Web Developer!</p>
                         <br />
-                        <p>I've always been a creative person. Back in high school and college I used to shoot and produce short
-                        videos. While I considered this as a career choice for a while, I ultimately decided that I should
-                        keep it as a hobby. But a job in finance was not giving me that sense of creativity and
-                        accomplishment that I was hoping for in a career. I soon realized that coding and software
-                        development has a lot of the same qualities as video production. You first come up with the idea.
-                        You then create a visual mock-up or storyboard of the idea. Then comes the editing/coding. Lastly
-                    you get to finish and admire the work you produced. </p>
+                        <p>
+                            Coming originally from a background in strategic communication and finance through work and school, I've enjoyed the opportunities
+                            and experiences I've had so far. They've allowed me to build beneficial, life-long skills in things like communication, analysis, risk-management,
+                            and leadership... just to name a few.
+                            However, I still felt like there were certain elements I wanted more of in my professional life - primarily creativity and problem-solving.
+                        </p>
                         <br />
-                        <p>I'm excited to show off my skills and creativity with this profile. Please enjoy!</p>
+                        <p>                              
+                        I've always been a creative person. I love coming up with an idea in my head, and then turning that idea into a fully-realized, final product.
+                        In high school and college this came from working on and creating videos and ad-campaigns. In my most recent position this came from side-projects I developed in my down time, finding ways to
+                        automate workflows and create new tools for our department to eliminate repetitive tasks and increase productivity. </p>
+                        <br />
+                        <p>I decided that I wanted to find a way to incorporate this more into my daily work, and not just on the side.
+                        After a bit self-reflection, and a lot of research, I became confident that Web Development/Software Engineering was the next best step for me to
+                        provide these elements I'd come to love. I enrolled in, and completed, the University of Wisconsin's Coding Bootcamp program, learning both front-end and back-end development.</p>
+                        <br />                        
+                        <p>I'm excited to combine my previous skills and experience with the new knowledge that I've gained in web development, and invite you to spend some time viewing the projects I've created in this porfolio. Please enjoy!</p>
                     </div>
                 </div>
             </div>
