@@ -127,8 +127,9 @@ footer a i {
 }
 
 .profile-pic {
-width: 300px;
+width: 350px;
 border-radius: 15px;
+margin: 0 10px 0 10px;
 }
 
 .contact-form {
@@ -142,6 +143,23 @@ border-radius: 15px;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 8px 16px 0 rgba(35,35,35,.16);
+}
+
+.contact-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.contact-links {
+  text-decoration: none;
+  color: var(--dark-blue);
+}
+
+.contact-links:hover {
+  color: var(--light-blue);
+  text-decoration: underline;
 }
 
 input, label {
@@ -290,6 +308,15 @@ button:hover {
     flex-direction: column;
   }
 
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-links-container {
+    padding: 10px;
+  }
+
 }
 
 @media screen and (max-width: 625px) {
@@ -329,4 +356,6 @@ button:hover {
     text-align: center;
     font-size: 20px;
   }
+
+
 }

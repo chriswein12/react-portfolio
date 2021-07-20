@@ -8,7 +8,7 @@ function Resume() {
                 <div className="resume-container">
                     <h3>Click the button below to download a .pdf copy of my Resume</h3>
                     <div className="button-container">
-                        <a href={require("../../assets/download/resume.pdf").default} download="resume">
+                        <a href={require("../../assets/download/chris-wein-resume.pdf").default} download="Chris Wein Resume">
                             <button type="button">Download Resume</button>
                         </a>
                     </div>

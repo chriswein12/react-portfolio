@@ -6,7 +6,6 @@ function Footer() {
         <footer>
             <a href="https://github.com/chriswein12" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/chriswein/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/ChrisWein12" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
         </footer>
     )
 
